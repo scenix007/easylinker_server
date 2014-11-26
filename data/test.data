@@ -1,0 +1,8 @@
+{
+    "shao.dut@gmail.com": {
+        "uname": "shao.dut@gmail.com", 
+        "is_active": 1, 
+        "port": 9300, 
+        "expire_date": "2014-12-16"
+    }
+}

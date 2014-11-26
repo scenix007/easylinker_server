@@ -1,0 +1,10 @@
+{
+	"port_password": {
+		"8387": "foobar",
+		"8388": "barfoo",
+		"7000": "LoveWangYe"
+	},
+		"method": "aes-128-cfb",
+		"timeout": 600
+}
+

@@ -1,0 +1,8 @@
+{
+    "port_password": {
+        "9300": "shao.dut@gmail.com", 
+        "9301": "shao.dut@qq.com"
+    }, 
+    "method": "aes-128-cfb", 
+    "timeout": 600
+}
