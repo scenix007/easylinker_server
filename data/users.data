@@ -1,14 +1,8 @@
 {
-    "shao.dut@qq.com": {
-        "uname": "shao.dut@qq.com", 
-        "is_active": 1, 
-        "port": 9301, 
-        "expire_date": "2014-12-12"
-    }, 
     "shao.dut@gmail.com": {
         "uname": "shao.dut@gmail.com", 
         "is_active": 1, 
         "port": 9300, 
-        "expire_date": "2014-12-06"
+        "expire_date": "2014-12-27"
     }
 }
