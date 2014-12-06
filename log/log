@@ -1,0 +1,15 @@
+service restarted
+Updating config file
+conf dumped
+Restating service
+cp user data to web
+2014/12/06 16:02:17 server listening port 9300 ...
+2014/12/06 16:02:18 creating cipher for port: 9300
+service restarted
+2014/12/06 16:02:27 server listening port 9300 ...
+Updating config file
+conf dumped
+Restating service
+cp user data to web
+2014/12/06 16:02:27 creating cipher for port: 9300
+2014/12/06 16:21:49 error connecting to: www.b.com:80 dial tcp: lookup www.b.com: no such host

@@ -27,6 +27,9 @@ if __name__ == '__main__':
     print 'Restating service'
     os.system('./script/restart_service.sh')
 
+    print 'cp user data to web'
+    os.system('cp data/users.data  web/users.data ; chown www:www web/users.data')
+
 
 
 
