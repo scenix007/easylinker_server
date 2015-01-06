@@ -3,12 +3,24 @@
         "uname": "test@test", 
         "is_active": 1, 
         "port": 9301, 
-        "expire_date": "2014-12-16"
+        "expire_date": "2015-01-17"
+    }, 
+    "icekale@gmail.com": {
+        "uname": "icekale@gmail.com", 
+        "is_active": 1, 
+        "port": 9303, 
+        "expire_date": "2017-01-03"
     }, 
     "shao.dut@gmail.com": {
         "uname": "shao.dut@gmail.com", 
         "is_active": 1, 
         "port": 9300, 
-        "expire_date": "2014-12-27"
+        "expire_date": "2017-09-21"
+    }, 
+    "gujinjie@outlook.com": {
+        "uname": "gujinjie@outlook.com", 
+        "is_active": 1, 
+        "port": 9302, 
+        "expire_date": "2016-12-04"
     }
 }

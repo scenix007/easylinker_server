@@ -1,7 +1,9 @@
 {
     "port_password": {
         "9300": "shao.dut@gmail.com", 
-        "9301": "test@test"
+        "9301": "test@test", 
+        "9302": "gujinjie@outlook.com", 
+        "9303": "icekale@gmail.com"
     }, 
     "method": "aes-128-cfb", 
     "timeout": 600
