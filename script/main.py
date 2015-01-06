@@ -24,8 +24,12 @@ if __name__ == '__main__':
     print 'Updating config file'
     user_instance.gen_conf('conf/server.json')
 
+    print 'Updating script file'
+    user_instance.gen_script('script/restart.sh')
+
     print 'Restating service'
-    os.system('./script/restart_service.sh')
+    os.system('./script/restart.sh')
+    #os.system('./script/restart_service.sh')
 
     print 'cp user data to web'
     os.system('cp data/users.data  web/users.data ; chown www:www web/users.data')

@@ -105,6 +105,32 @@ class  Users:
 
         print 'conf dumped'
 
+    def gen_script(self, fname):
+        out_str = """#!/bin/bash
+killall ss-server;
+
+
+"""
+        for uname in self.data:
+            user = self.data[uname]
+            if user['is_active'] == 1:
+                port = user['port']
+                cmd_str = "nohup ss-server -s 106.187.102.100 -p %d -k %s -m aes-128-cfb -u >> log/log.%d 2>&1 &\n" % \
+                        (port, uname, port)
+                out_str += cmd_str
+
+        
+
+        out_str += """
+
+echo "Restart service done"
+"""
+        with open(fname, 'w') as f:
+            pass
+            f.write(out_str)
+
+        print 'conf dumped'
+
 
 if __name__ == '__main__':
     test_user_instance = Users()
