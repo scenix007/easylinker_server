@@ -94,6 +94,7 @@ class  Users:
                 port_password[str(port)] = uname
 
         conf = {
+                "server":"0.0.0.0",
                 "port_password" : port_password,
                 "method": "aes-128-cfb",
                 "timeout": 600
@@ -115,7 +116,7 @@ killall ss-server;
             user = self.data[uname]
             if user['is_active'] == 1:
                 port = user['port']
-                cmd_str = "nohup ss-server -s 106.187.102.100 -p %d -k %s -m aes-128-cfb -u >> log/log.%d 2>&1 &\n" % \
+                cmd_str = "nohup ss-server -s 0.0.0.0 -p %d -k %s -m aes-128-cfb -u --fast-open >> log/log.%d 2>&1 &\n" % \
                         (port, uname, port)
                 out_str += cmd_str
 

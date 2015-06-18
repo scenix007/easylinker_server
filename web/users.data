@@ -1,15 +1,33 @@
 {
-    "test@test": {
-        "uname": "test@test", 
+    "mark.du@outlook.com": {
+        "uname": "mark.du@outlook.com", 
         "is_active": 1, 
-        "port": 9301, 
-        "expire_date": "2015-01-17"
+        "port": 9310, 
+        "expire_date": "2015-07-04"
     }, 
-    "icekale@gmail.com": {
-        "uname": "icekale@gmail.com", 
+    "yuchaopeng@hotmail.com": {
+        "uname": "yuchaopeng@hotmail.com", 
         "is_active": 1, 
-        "port": 9303, 
-        "expire_date": "2017-01-03"
+        "port": 9324, 
+        "expire_date": "2016-05-12"
+    }, 
+    "huliangang_rad@163.com": {
+        "uname": "huliangang_rad@163.com", 
+        "is_active": 0, 
+        "port": 9316, 
+        "expire_date": "2015-03-31"
+    }, 
+    "gujinjie@outlook.com": {
+        "uname": "gujinjie@outlook.com", 
+        "is_active": 1, 
+        "port": 9302, 
+        "expire_date": "2016-12-04"
+    }, 
+    "MichaelXuZM@Gmail.com": {
+        "uname": "MichaelXuZM@Gmail.com", 
+        "is_active": 1, 
+        "port": 9323, 
+        "expire_date": "2016-04-20"
     }, 
     "shao.dut@gmail.com": {
         "uname": "shao.dut@gmail.com", 
@@ -17,10 +35,118 @@
         "port": 9300, 
         "expire_date": "2017-09-21"
     }, 
-    "gujinjie@outlook.com": {
-        "uname": "gujinjie@outlook.com", 
+    "allen2006cyb@126.com": {
+        "uname": "allen2006cyb@126.com", 
         "is_active": 1, 
-        "port": 9302, 
-        "expire_date": "2016-12-04"
+        "port": 9313, 
+        "expire_date": "2015-06-30"
+    }, 
+    "283926334@qq.com": {
+        "uname": "283926334@qq.com", 
+        "is_active": 1, 
+        "port": 9319, 
+        "expire_date": "2015-09-30"
+    }, 
+    "littleluep92@msn.com": {
+        "uname": "littleluep92@msn.com", 
+        "is_active": 1, 
+        "port": 9320, 
+        "expire_date": "2016-05-31"
+    }, 
+    "omegaojian@hotmail.com": {
+        "uname": "omegaojian@hotmail.com", 
+        "is_active": 1, 
+        "port": 9314, 
+        "expire_date": "2015-06-30"
+    }, 
+    "aren01@163.com": {
+        "uname": "aren01@163.com", 
+        "is_active": 1, 
+        "port": 9306, 
+        "expire_date": "2015-09-30"
+    }, 
+    "icekale@gmail.com": {
+        "uname": "icekale@gmail.com", 
+        "is_active": 1, 
+        "port": 9303, 
+        "expire_date": "2017-01-03"
+    }, 
+    "jiabeibei.cn@gmail.com": {
+        "uname": "jiabeibei.cn@gmail.com", 
+        "is_active": 1, 
+        "port": 9311, 
+        "expire_date": "2015-07-03"
+    }, 
+    "liuyangalex@gmail.com": {
+        "uname": "liuyangalex@gmail.com", 
+        "is_active": 1, 
+        "port": 9307, 
+        "expire_date": "2015-07-09"
+    }, 
+    "669687151@qq.com": {
+        "uname": "669687151@qq.com", 
+        "is_active": 1, 
+        "port": 9321, 
+        "expire_date": "2016-04-02"
+    }, 
+    "fuyuhe@163.com": {
+        "uname": "fuyuhe@163.com", 
+        "is_active": 1, 
+        "port": 9318, 
+        "expire_date": "2016-03-28"
+    }, 
+    "jasonyu35@gmail.com": {
+        "uname": "jasonyu35@gmail.com", 
+        "is_active": 1, 
+        "port": 9305, 
+        "expire_date": "2015-10-15"
+    }, 
+    "90581@163.com": {
+        "uname": "90581@163.com", 
+        "is_active": 1, 
+        "port": 9308, 
+        "expire_date": "2016-01-01"
+    }, 
+    "schor@qq.com": {
+        "uname": "schor@qq.com", 
+        "is_active": 1, 
+        "port": 9315, 
+        "expire_date": "2016-05-10"
+    }, 
+    "rex@ichronocloud.com": {
+        "uname": "rex@ichronocloud.com", 
+        "is_active": 1, 
+        "port": 9309, 
+        "expire_date": "2015-07-04"
+    }, 
+    "test@test": {
+        "uname": "test@test", 
+        "is_active": 0, 
+        "port": 9301, 
+        "expire_date": "2015-04-01"
+    }, 
+    "stuka@foxmail.com": {
+        "uname": "stuka@foxmail.com", 
+        "is_active": 1, 
+        "port": 9304, 
+        "expire_date": "2017-06-30"
+    }, 
+    "davidcrown@126.com": {
+        "uname": "davidcrown@126.com", 
+        "is_active": 1, 
+        "port": 9312, 
+        "expire_date": "2015-07-01"
+    }, 
+    "zmc997144@126.com": {
+        "uname": "zmc997144@126.com", 
+        "is_active": 1, 
+        "port": 9322, 
+        "expire_date": "2016-04-12"
+    }, 
+    "705459593@qq.com": {
+        "uname": "705459593@qq.com", 
+        "is_active": 1, 
+        "port": 9317, 
+        "expire_date": "2016-03-17"
     }
 }
