@@ -32,7 +32,7 @@
     "shao.dut@gmail.com": {
         "uname": "shao.dut@gmail.com", 
         "is_active": 1, 
-        "port": 9400, 
+        "port": 9300, 
         "expire_date": "2017-09-21"
     }, 
     "allen2006cyb@126.com": {
@@ -100,6 +100,12 @@
         "is_active": 1, 
         "port": 9305, 
         "expire_date": "2015-10-15"
+    }, 
+    "xl@ibreathcare.com": {
+        "uname": "xl@ibreathcare.com", 
+        "is_active": 1, 
+        "port": 9325, 
+        "expire_date": "2016-06-18"
     }, 
     "90581@163.com": {
         "uname": "90581@163.com", 
