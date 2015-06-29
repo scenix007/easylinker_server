@@ -5,6 +5,12 @@
         "port": 9310, 
         "expire_date": "2015-07-04"
     }, 
+    "532906018@qq.com": {
+        "uname": "532906018@qq.com", 
+        "is_active": 1, 
+        "port": 9309, 
+        "expire_date": "2015-07-04"
+    }, 
     "yuchaopeng@hotmail.com": {
         "uname": "yuchaopeng@hotmail.com", 
         "is_active": 1, 
@@ -124,12 +130,6 @@
         "is_active": 1, 
         "port": 9315, 
         "expire_date": "2016-05-10"
-    }, 
-    "rex@ichronocloud.com": {
-        "uname": "532906018@qq.com", 
-        "is_active": 1, 
-        "port": 9309, 
-        "expire_date": "2015-07-04"
     }, 
     "test@test": {
         "uname": "test@test", 

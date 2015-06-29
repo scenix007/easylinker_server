@@ -3,6 +3,7 @@ killall ss-server;
 
 
 nohup ss-server -s 0.0.0.0 -p 9310 -k mark.du@outlook.com -m aes-128-cfb -u --fast-open >> log/log.9310 2>&1 &
+nohup ss-server -s 0.0.0.0 -p 9309 -k 532906018@qq.com -m aes-128-cfb -u --fast-open >> log/log.9309 2>&1 &
 nohup ss-server -s 0.0.0.0 -p 9324 -k yuchaopeng@hotmail.com -m aes-128-cfb -u --fast-open >> log/log.9324 2>&1 &
 nohup ss-server -s 0.0.0.0 -p 9302 -k gujinjie@outlook.com -m aes-128-cfb -u --fast-open >> log/log.9302 2>&1 &
 nohup ss-server -s 0.0.0.0 -p 9323 -k MichaelXuZM@Gmail.com -m aes-128-cfb -u --fast-open >> log/log.9323 2>&1 &
@@ -22,7 +23,6 @@ nohup ss-server -s 0.0.0.0 -p 9305 -k jasonyu35@gmail.com -m aes-128-cfb -u --fa
 nohup ss-server -s 0.0.0.0 -p 9325 -k xl@ibreathcare.com -m aes-128-cfb -u --fast-open >> log/log.9325 2>&1 &
 nohup ss-server -s 0.0.0.0 -p 9308 -k 90581@163.com -m aes-128-cfb -u --fast-open >> log/log.9308 2>&1 &
 nohup ss-server -s 0.0.0.0 -p 9315 -k schor@qq.com -m aes-128-cfb -u --fast-open >> log/log.9315 2>&1 &
-nohup ss-server -s 0.0.0.0 -p 9309 -k rex@ichronocloud.com -m aes-128-cfb -u --fast-open >> log/log.9309 2>&1 &
 nohup ss-server -s 0.0.0.0 -p 9304 -k stuka@foxmail.com -m aes-128-cfb -u --fast-open >> log/log.9304 2>&1 &
 nohup ss-server -s 0.0.0.0 -p 9400 -k router@home -m aes-128-cfb -u --fast-open >> log/log.9400 2>&1 &
 nohup ss-server -s 0.0.0.0 -p 9312 -k davidcrown@126.com -m aes-128-cfb -u --fast-open >> log/log.9312 2>&1 &
