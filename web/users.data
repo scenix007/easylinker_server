@@ -43,7 +43,7 @@
     }, 
     "allen2006cyb@126.com": {
         "uname": "allen2006cyb@126.com", 
-        "is_active": 1, 
+        "is_active": 0, 
         "port": 9313, 
         "expire_date": "2015-06-30"
     }, 
@@ -61,7 +61,7 @@
     }, 
     "omegaojian@hotmail.com": {
         "uname": "omegaojian@hotmail.com", 
-        "is_active": 1, 
+        "is_active": 0, 
         "port": 9314, 
         "expire_date": "2015-06-30"
     }, 
@@ -131,6 +131,12 @@
         "port": 9315, 
         "expire_date": "2016-05-10"
     }, 
+    "hans@ibreathcare.com": {
+        "uname": "hans@ibreathcare.com", 
+        "is_active": 1, 
+        "port": 9327, 
+        "expire_date": "2017-12-03"
+    }, 
     "test@test": {
         "uname": "test@test", 
         "is_active": 0, 
@@ -151,7 +157,7 @@
     }, 
     "davidcrown@126.com": {
         "uname": "davidcrown@126.com", 
-        "is_active": 1, 
+        "is_active": 0, 
         "port": 9312, 
         "expire_date": "2015-07-01"
     }, 
