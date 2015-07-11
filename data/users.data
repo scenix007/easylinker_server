@@ -1,13 +1,13 @@
 {
     "mark.du@outlook.com": {
         "uname": "mark.du@outlook.com", 
-        "is_active": 1, 
+        "is_active": 0, 
         "port": 9310, 
         "expire_date": "2015-07-04"
     }, 
     "532906018@qq.com": {
         "uname": "532906018@qq.com", 
-        "is_active": 1, 
+        "is_active": 0, 
         "port": 9309, 
         "expire_date": "2015-07-04"
     }, 
@@ -43,9 +43,9 @@
     }, 
     "allen2006cyb@126.com": {
         "uname": "allen2006cyb@126.com", 
-        "is_active": 0, 
+        "is_active": 1, 
         "port": 9313, 
-        "expire_date": "2015-06-30"
+        "expire_date": "2016-07-01"
     }, 
     "283926334@qq.com": {
         "uname": "283926334@qq.com", 
@@ -85,13 +85,13 @@
     }, 
     "jiabeibei.cn@gmail.com": {
         "uname": "jiabeibei.cn@gmail.com", 
-        "is_active": 1, 
+        "is_active": 0, 
         "port": 9311, 
         "expire_date": "2015-07-03"
     }, 
     "liuyangalex@gmail.com": {
         "uname": "liuyangalex@gmail.com", 
-        "is_active": 1, 
+        "is_active": 0, 
         "port": 9307, 
         "expire_date": "2015-07-09"
     }, 

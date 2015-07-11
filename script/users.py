@@ -109,6 +109,7 @@ class  Users:
     def gen_script(self, fname):
         out_str = """#!/bin/bash
 killall ss-server;
+killall ssserver;
 
 
 """
@@ -116,8 +117,13 @@ killall ss-server;
             user = self.data[uname]
             if user['is_active'] == 1:
                 port = user['port']
-                cmd_str = "nohup ss-server -s 0.0.0.0 -p %d -k %s -m aes-128-cfb -u --fast-open >> log/log.%d 2>&1 &\n" % \
-                        (port, uname, port)
+                #cmd_str = "nohup ss-server -s 0.0.0.0 -p %d -k %s -m aes-128-cfb --fast-open >> log/log.%d 2>&1 &\n" % \
+                #        (port, uname, port)
+                cmd_str = "ssserver -s 0.0.0.0 -p %d -k %s " % (port, uname)
+                cmd_str += " -m aes-128-cfb --fast-open --user nobody"
+                cmd_str += " --pid-file /tmp/ss.%d" % port
+                cmd_str += " --log-file log/log.%d" % port
+                cmd_str += " -q -d start\n"
                 out_str += cmd_str
 
         
