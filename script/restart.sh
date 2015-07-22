@@ -21,7 +21,7 @@ ssserver -s 0.0.0.0 -p 9318 -k fuyuhe@163.com  -m aes-128-cfb --fast-open --user
 ssserver -s 0.0.0.0 -p 9305 -k jasonyu35@gmail.com  -m aes-128-cfb --fast-open --user nobody --pid-file /tmp/ss.9305 --log-file log/log.9305 -q -d start
 ssserver -s 0.0.0.0 -p 9325 -k xl@ibreathcare.com  -m aes-128-cfb --fast-open --user nobody --pid-file /tmp/ss.9325 --log-file log/log.9325 -q -d start
 ssserver -s 0.0.0.0 -p 9308 -k 90581@163.com  -m aes-128-cfb --fast-open --user nobody --pid-file /tmp/ss.9308 --log-file log/log.9308 -q -d start
-ssserver -s 0.0.0.0 -p 9328 -k leojxu@gmail.com  -m aes-128-cfb --fast-open --user nobody --pid-file /tmp/ss.9328 --log-file log/log.9328 -q -d start
+ssserver -s 0.0.0.0 -p 8445 -k leojxu@gmail.com  -m aes-128-cfb --fast-open --user nobody --pid-file /tmp/ss.8445 --log-file log/log.8445 -q -d start
 ssserver -s 0.0.0.0 -p 9315 -k schor@qq.com  -m aes-128-cfb --fast-open --user nobody --pid-file /tmp/ss.9315 --log-file log/log.9315 -q -d start
 ssserver -s 0.0.0.0 -p 9327 -k hans@ibreathcare.com  -m aes-128-cfb --fast-open --user nobody --pid-file /tmp/ss.9327 --log-file log/log.9327 -q -d start
 ssserver -s 0.0.0.0 -p 9304 -k stuka@foxmail.com  -m aes-128-cfb --fast-open --user nobody --pid-file /tmp/ss.9304 --log-file log/log.9304 -q -d start

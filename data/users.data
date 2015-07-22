@@ -128,7 +128,7 @@
     "leojxu@gmail.com": {
         "uname": "leojxu@gmail.com", 
         "is_active": 1, 
-        "port": 9328, 
+        "port": 8445, 
         "expire_date": "2016-07-20"
     }, 
     "schor@qq.com": {
