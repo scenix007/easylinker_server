@@ -1,4 +1,7 @@
 <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
 <body>
 <h1>账户过期时间查询</h1>
 <form name="form1" method="post" action="">

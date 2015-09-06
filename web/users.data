@@ -11,11 +11,11 @@
         "port": 9309, 
         "expire_date": "2016-01-12"
     }, 
-    "yuchaopeng@hotmail.com": {
-        "uname": "yuchaopeng@hotmail.com", 
+    "DEV@shuomao": {
+        "uname": "DEV@shuomao", 
         "is_active": 1, 
-        "port": 9324, 
-        "expire_date": "2016-05-12"
+        "port": 9329, 
+        "expire_date": "2016-08-02"
     }, 
     "huliangang_rad@163.com": {
         "uname": "huliangang_rad@163.com", 
@@ -46,6 +46,12 @@
         "is_active": 1, 
         "port": 9313, 
         "expire_date": "2016-07-01"
+    }, 
+    "router@udp": {
+        "uname": "router@udp", 
+        "is_active": 1, 
+        "port": 9401, 
+        "expire_date": "2016-06-18"
     }, 
     "283926334@qq.com": {
         "uname": "283926334@qq.com", 
@@ -94,6 +100,12 @@
         "is_active": 1, 
         "port": 9307, 
         "expire_date": "2016-08-18"
+    }, 
+    "yuchaopeng@hotmail.com": {
+        "uname": "yuchaopeng@hotmail.com", 
+        "is_active": 1, 
+        "port": 9324, 
+        "expire_date": "2016-05-12"
     }, 
     "669687151@qq.com": {
         "uname": "669687151@qq.com", 
@@ -167,6 +179,12 @@
         "port": 9312, 
         "expire_date": "2015-07-01"
     }, 
+    "18535652@qq.com": {
+        "uname": "18535652@qq.com", 
+        "is_active": 1, 
+        "port": 9330, 
+        "expire_date": "2016-01-31"
+    }, 
     "zmc997144@126.com": {
         "uname": "zmc997144@126.com", 
         "is_active": 1, 
@@ -178,5 +196,11 @@
         "is_active": 1, 
         "port": 9317, 
         "expire_date": "2016-03-17"
+    }, 
+    "wangliyang.leon@gmail.com": {
+        "uname": "wangliyang.leon@gmail.com", 
+        "is_active": 1, 
+        "port": 9328, 
+        "expire_date": "2016-07-25"
     }
 }

@@ -110,6 +110,7 @@ class  Users:
         out_str = """#!/bin/bash
 killall ss-server;
 killall ssserver;
+sleep 5s;
 
 
 """
