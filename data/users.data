@@ -50,7 +50,7 @@
     "router@udp": {
         "uname": "router@udp", 
         "is_active": 1, 
-        "port": 9401, 
+        "port": 443, 
         "expire_date": "2016-06-18"
     }, 
     "283926334@qq.com": {
@@ -125,6 +125,12 @@
         "port": 9305, 
         "expire_date": "2015-10-15"
     }, 
+    "562530766@qq.com": {
+        "uname": "562530766@qq.com", 
+        "is_active": 1, 
+        "port": 9331, 
+        "expire_date": "2015-12-17"
+    }, 
     "xl@ibreathcare.com": {
         "uname": "xl@ibreathcare.com", 
         "is_active": 1, 
@@ -172,6 +178,12 @@
         "is_active": 1, 
         "port": 9400, 
         "expire_date": "2016-06-18"
+    }, 
+    "180089641@qq.com": {
+        "uname": "180089641@qq.com", 
+        "is_active": 1, 
+        "port": 9332, 
+        "expire_date": "2016-09-15"
     }, 
     "davidcrown@126.com": {
         "uname": "davidcrown@126.com", 
