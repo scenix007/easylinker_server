@@ -11,17 +11,23 @@
         "port": 9309, 
         "expire_date": "2016-01-12"
     }, 
-    "DEV@shuomao": {
-        "uname": "DEV@shuomao", 
+    "yuchaopeng@hotmail.com": {
+        "uname": "yuchaopeng@hotmail.com", 
         "is_active": 1, 
-        "port": 9329, 
-        "expire_date": "2016-08-02"
+        "port": 9324, 
+        "expire_date": "2016-05-12"
     }, 
     "huliangang_rad@163.com": {
         "uname": "huliangang_rad@163.com", 
         "is_active": 0, 
         "port": 9316, 
         "expire_date": "2015-03-31"
+    }, 
+    "d-jerry@hotmail.com": {
+        "uname": "d-jerry@hotmail.com", 
+        "is_active": 1, 
+        "port": 9333, 
+        "expire_date": "2016-09-15"
     }, 
     "gujinjie@outlook.com": {
         "uname": "gujinjie@outlook.com", 
@@ -55,7 +61,7 @@
     }, 
     "283926334@qq.com": {
         "uname": "283926334@qq.com", 
-        "is_active": 1, 
+        "is_active": 0, 
         "port": 9319, 
         "expire_date": "2015-09-30"
     }, 
@@ -73,7 +79,7 @@
     }, 
     "aren01@163.com": {
         "uname": "aren01@163.com", 
-        "is_active": 1, 
+        "is_active": 0, 
         "port": 9306, 
         "expire_date": "2015-09-30"
     }, 
@@ -101,11 +107,11 @@
         "port": 9307, 
         "expire_date": "2016-08-18"
     }, 
-    "yuchaopeng@hotmail.com": {
-        "uname": "yuchaopeng@hotmail.com", 
+    "DEV@shuomao": {
+        "uname": "DEV@shuomao", 
         "is_active": 1, 
-        "port": 9324, 
-        "expire_date": "2016-05-12"
+        "port": 9329, 
+        "expire_date": "2016-08-02"
     }, 
     "669687151@qq.com": {
         "uname": "669687151@qq.com", 
@@ -143,17 +149,17 @@
         "port": 9308, 
         "expire_date": "2016-01-01"
     }, 
-    "leojxu@gmail.com": {
-        "uname": "leojxu@gmail.com", 
-        "is_active": 1, 
-        "port": 8445, 
-        "expire_date": "2016-07-20"
-    }, 
     "schor@qq.com": {
         "uname": "schor@qq.com", 
         "is_active": 1, 
         "port": 9315, 
         "expire_date": "2016-05-10"
+    }, 
+    "leojxu@gmail.com": {
+        "uname": "leojxu@gmail.com", 
+        "is_active": 1, 
+        "port": 8445, 
+        "expire_date": "2016-07-20"
     }, 
     "hans@ibreathcare.com": {
         "uname": "hans@ibreathcare.com", 
