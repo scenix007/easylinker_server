@@ -1,3 +1,5 @@
+conf/*
+web/*
 *.pyc
 nohup.out
 log

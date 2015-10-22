@@ -108,6 +108,7 @@ class  Users:
 
     def gen_script(self, fname):
         out_str = """#!/bin/bash
+export PATH=$PATH:/usr/local/bin;
 killall ss-server;
 killall ssserver;
 sleep 5s;

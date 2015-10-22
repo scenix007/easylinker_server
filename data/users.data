@@ -155,6 +155,12 @@
         "port": 9325, 
         "expire_date": "2016-06-18"
     }, 
+    "287429272@qq.com": {
+        "uname": "287429272@qq.com", 
+        "is_active": 1, 
+        "port": 9336, 
+        "expire_date": "2015-11-20"
+    }, 
     "90581@163.com": {
         "uname": "90581@163.com", 
         "is_active": 1, 

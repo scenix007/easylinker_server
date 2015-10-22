@@ -1,4 +1,5 @@
 #!/bin/bash
+export PATH=$PATH:/usr/local/bin;
 killall ss-server;
 killall ssserver;
 sleep 5s;
@@ -26,6 +27,7 @@ ssserver -s 0.0.0.0 -p 9321 -k 669687151@qq.com  -m aes-128-cfb --fast-open --us
 ssserver -s 0.0.0.0 -p 9318 -k fuyuhe@163.com  -m aes-128-cfb --fast-open --user nobody --pid-file /tmp/ss.9318 --log-file log/log.9318 -q -d start
 ssserver -s 0.0.0.0 -p 9331 -k 562530766@qq.com  -m aes-128-cfb --fast-open --user nobody --pid-file /tmp/ss.9331 --log-file log/log.9331 -q -d start
 ssserver -s 0.0.0.0 -p 9325 -k xl@ibreathcare.com  -m aes-128-cfb --fast-open --user nobody --pid-file /tmp/ss.9325 --log-file log/log.9325 -q -d start
+ssserver -s 0.0.0.0 -p 9336 -k 287429272@qq.com  -m aes-128-cfb --fast-open --user nobody --pid-file /tmp/ss.9336 --log-file log/log.9336 -q -d start
 ssserver -s 0.0.0.0 -p 9308 -k 90581@163.com  -m aes-128-cfb --fast-open --user nobody --pid-file /tmp/ss.9308 --log-file log/log.9308 -q -d start
 ssserver -s 0.0.0.0 -p 8445 -k leojxu@gmail.com  -m aes-128-cfb --fast-open --user nobody --pid-file /tmp/ss.8445 --log-file log/log.8445 -q -d start
 ssserver -s 0.0.0.0 -p 9315 -k schor@qq.com  -m aes-128-cfb --fast-open --user nobody --pid-file /tmp/ss.9315 --log-file log/log.9315 -q -d start
