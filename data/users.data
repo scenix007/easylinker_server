@@ -31,7 +31,7 @@
     }, 
     "yuchaopeng@hotmail.com": {
         "uname": "yuchaopeng@hotmail.com", 
-        "is_active": 1, 
+        "is_active": 0, 
         "port": 9324, 
         "expire_date": "2016-05-12"
     }, 
@@ -63,7 +63,7 @@
         "uname": "MichaelXuZM@Gmail.com", 
         "is_active": 1, 
         "port": 9323, 
-        "expire_date": "2016-04-20"
+        "expire_date": "2017-04-20"
     }, 
     "shao.dut@gmail.com": {
         "uname": "shao.dut@gmail.com", 
@@ -85,7 +85,7 @@
     }, 
     "router@udp": {
         "uname": "router@udp", 
-        "is_active": 1, 
+        "is_active": 0, 
         "port": 443, 
         "expire_date": "2016-06-18"
     }, 
@@ -93,7 +93,7 @@
         "uname": "283926334@qq.com", 
         "is_active": 1, 
         "port": 9319, 
-        "expire_date": "2016-04-12"
+        "expire_date": "2017-04-20"
     }, 
     "littleluep92@msn.com": {
         "uname": "littleluep92@msn.com", 
@@ -165,7 +165,7 @@
         "uname": "562530766@qq.com", 
         "is_active": 1, 
         "port": 9331, 
-        "expire_date": "2016-06-17"
+        "expire_date": "2017-02-13"
     }, 
     "25736190@qq.com": {
         "uname": "25736190@qq.com", 
@@ -175,9 +175,9 @@
     }, 
     "287429272@qq.com": {
         "uname": "287429272@qq.com", 
-        "is_active": 0, 
+        "is_active": 1, 
         "port": 9336, 
-        "expire_date": "2016-01-30"
+        "expire_date": "2016-06-27"
     }, 
     "90581@163.com": {
         "uname": "90581@163.com", 
@@ -195,7 +195,7 @@
         "uname": "schor@qq.com", 
         "is_active": 1, 
         "port": 9315, 
-        "expire_date": "2016-05-10"
+        "expire_date": "2017-05-11"
     }, 
     "hans@ibreathcare.com": {
         "uname": "hans@ibreathcare.com", 
@@ -219,13 +219,19 @@
         "uname": "router@home", 
         "is_active": 1, 
         "port": 9400, 
-        "expire_date": "2016-06-18"
+        "expire_date": "2026-08-26"
     }, 
     "180089641@qq.com": {
         "uname": "180089641@qq.com", 
         "is_active": 1, 
         "port": 9332, 
         "expire_date": "2016-09-15"
+    }, 
+    "yforeverw@qq.com": {
+        "uname": "yforeverw@qq.com", 
+        "is_active": 1, 
+        "port": 9341, 
+        "expire_date": "2017-05-22"
     }, 
     "tongdou-zsu@163.com": {
         "uname": "tongdou-zsu@163.com", 
@@ -235,13 +241,13 @@
     }, 
     "xl@ibreathcare.com": {
         "uname": "xl@ibreathcare.com", 
-        "is_active": 1, 
+        "is_active": 0, 
         "port": 9325, 
         "expire_date": "2016-06-18"
     }, 
     "zmc997144@126.com": {
         "uname": "zmc997144@126.com", 
-        "is_active": 1, 
+        "is_active": 0, 
         "port": 9322, 
         "expire_date": "2016-04-12"
     }, 
@@ -256,6 +262,12 @@
         "is_active": 1, 
         "port": 9340, 
         "expire_date": "2017-03-14"
+    }, 
+    "124917570@qq.com": {
+        "uname": "124917570@qq.com", 
+        "is_active": 1, 
+        "port": 9342, 
+        "expire_date": "2017-06-16"
     }, 
     "wangliyang.leon@gmail.com": {
         "uname": "wangliyang.leon@gmail.com", 
