@@ -17,12 +17,12 @@ if __name__ == '__main__':
     args = parser.parse_args()
     user_instance = users.Users()
     user_instance.load('data/users.data')
-    if args.uname and args.ttl:
-        print 'Adding %d days to %s using %s' % (args.ttl, args.uname, DEFAULT_METHOD)
-        user_instance.add_user(args.uname, args.ttl, DEFAULT_METHOD)
-    elif args.uname and args.ttl and args.method:
+    if args.uname and args.ttl and args.method:
         print 'Adding %d days to %s using %s' % (args.ttl, args.uname, args.method)
         user_instance.add_user(args.uname, args.ttl, args.method)
+    elif args.uname and args.ttl:
+        print 'Adding %d days to %s using %s' % (args.ttl, args.uname, DEFAULT_METHOD)
+        user_instance.add_user(args.uname, args.ttl, DEFAULT_METHOD)
     user_instance.check_users()
     user_instance.dump('data/users.data')
     
