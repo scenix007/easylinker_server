@@ -3,3 +3,5 @@ web/*
 *.pyc
 nohup.out
 log
+data/users.data
+script/restart.sh

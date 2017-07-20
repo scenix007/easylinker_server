@@ -7,22 +7,27 @@
 import argparse 
 import users
 import os
+DEFAULT_METHOD='aes-128-cfb'
 parser = argparse.ArgumentParser()
 parser.add_argument("-u", "--uname", help="username must be a email adderss") 
 parser.add_argument("-t", "--ttl",type = int, help="time to live in days") 
+parser.add_argument("-m", "--method", help="encryption type, default is aes-128-cfb") 
 
 if __name__ == '__main__':
     args = parser.parse_args()
     user_instance = users.Users()
     user_instance.load('data/users.data')
     if args.uname and args.ttl:
-        print 'Adding %d days to %s' % (args.ttl, args.uname)
-        user_instance.add_user(args.uname, args.ttl)
+        print 'Adding %d days to %s using %s' % (args.ttl, args.uname, DEFAULT_METHOD)
+        user_instance.add_user(args.uname, args.ttl, DEFAULT_METHOD)
+    elif args.uname and args.ttl and args.method:
+        print 'Adding %d days to %s using %s' % (args.ttl, args.uname, args.method)
+        user_instance.add_user(args.uname, args.ttl, args.method)
     user_instance.check_users()
     user_instance.dump('data/users.data')
     
-    print 'Updating config file'
-    user_instance.gen_conf('conf/server.json')
+    #print 'Updating config file'
+    #user_instance.gen_conf('conf/server.json')
 
     print 'Updating script file'
     user_instance.gen_script('script/restart.sh')

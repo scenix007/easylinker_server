@@ -25,8 +25,8 @@ class  Users:
             f.write(json.dumps(self.data,indent=4))
 
     # ttl = time to live in days.
-    def add_user(self, uname, ttl):
-        if ttl <= 0:
+    def add_user(self, uname, ttl, method):
+        if ttl < 0:
             print >> sys.stderr, "TTL is too small"
             return
 
@@ -57,9 +57,11 @@ class  Users:
                     'uname'       : uname,
                     'port'        : port,
                     'expire_date' : expire_date,
+                    'method'      : method,
                     'is_active'   : 1
                     }
-            print "New user added. Name:%s Port:%d Exp_date:%s" % (uname, port, expire_date)
+            print "New user added. Name:%s Port:%d Exp_date:%s with method:%s" % \
+                    (uname, port, expire_date, method)
             print self.data
 
         else:
@@ -74,7 +76,9 @@ class  Users:
             #
             user['expire_date'] = expire_date
             user['is_active'] = 1
-            print "User time added. Name:%s Port:%d Exp_date:%s" % (uname, user['port'], expire_date)
+            user['method'] = method
+            print "User time added. Name:%s Port:%d Exp_date:%s with method:%s"\
+                    % (uname, user['port'], expire_date, method)
 
     def check_users(self):
         for uname in self.data:
@@ -109,7 +113,6 @@ class  Users:
     def gen_script(self, fname):
         out_str = """#!/bin/bash
 export PATH=$PATH:/usr/local/bin;
-killall ss-server;
 killall ssserver;
 sleep 5s;
 
@@ -119,10 +122,12 @@ sleep 5s;
             user = self.data[uname]
             if user['is_active'] == 1:
                 port = user['port']
-                #cmd_str = "nohup ss-server -s 0.0.0.0 -p %d -k %s -m aes-128-cfb --fast-open >> log/log.%d 2>&1 &\n" % \
-                #        (port, uname, port)
+                method = 'aes-128-cfb'
+                if 'method' in user:
+                    method = user['method']
                 cmd_str = "ssserver -s 0.0.0.0 -p %d -k %s " % (port, uname)
-                cmd_str += " -m aes-128-cfb --fast-open --user nobody"
+                cmd_str += " -m %s" % method
+                cmd_str += " --fast-open --user nobody"
                 cmd_str += " --pid-file /tmp/ss.%d" % port
                 cmd_str += " --log-file log/log.%d" % port
                 cmd_str += " -q -d start\n"
