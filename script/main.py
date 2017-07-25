@@ -7,11 +7,11 @@
 import argparse 
 import users
 import os
-DEFAULT_METHOD='aes-128-cfb'
+DEFAULT_METHOD='chacha20-ietf-poly1305'
 parser = argparse.ArgumentParser()
 parser.add_argument("-u", "--uname", help="username must be a email adderss") 
 parser.add_argument("-t", "--ttl",type = int, help="time to live in days") 
-parser.add_argument("-m", "--method", help="encryption type, default is aes-128-cfb") 
+parser.add_argument("-m", "--method", help="encryption type, default is chacha20-ietf-poly1305") 
 
 if __name__ == '__main__':
     args = parser.parse_args()

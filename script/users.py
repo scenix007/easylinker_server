@@ -100,7 +100,7 @@ class  Users:
         conf = {
                 "server":"0.0.0.0",
                 "port_password" : port_password,
-                "method": "aes-128-cfb",
+                "method": "chacha20-ietf-poly1305",
                 "timeout": 600
                 }
 
@@ -122,7 +122,7 @@ sleep 5s;
             user = self.data[uname]
             if user['is_active'] == 1:
                 port = user['port']
-                method = 'aes-128-cfb'
+                method = 'chacha20-ietf-poly1305'
                 if 'method' in user:
                     method = user['method']
                 cmd_str = "ssserver -s 0.0.0.0 -p %d -k %s " % (port, uname)
