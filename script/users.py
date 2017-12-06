@@ -114,6 +114,7 @@ class  Users:
         out_str = """#!/bin/bash
 export PATH=$PATH:/usr/local/bin;
 killall ssserver;
+killall server_linux_amd64;
 sleep 5s;
 
 
@@ -136,7 +137,7 @@ sleep 5s;
         
 
         out_str += """
-
+nohup ./server_linux_amd64 -t "127.0.0.1:9500" -l ":9595" -mode fast3 -key wo1wusuoyou -crypt aes-128 &
 echo "Restart service done"
 """
         with open(fname, 'w') as f:

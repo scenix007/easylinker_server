@@ -1,149 +1,156 @@
 {
-    "router@homeNEW": {
-        "port": 9500, 
-        "uname": "router@homeNEW", 
-        "is_active": 1, 
-        "method": "chacha20-ietf-poly1305", 
-        "expire_date": "2026-08-26"
-    }, 
     "mark.du@outlook.com": {
         "uname": "mark.du@outlook.com", 
-        "method": "chacha20-ietf-poly1305", 
+        "expire_date": "2018-07-20", 
         "is_active": 1, 
         "port": 9310, 
-        "expire_date": "2018-07-20"
+        "method": "chacha20-ietf-poly1305"
     }, 
-    "25736190@qq.com": {
-        "uname": "25736190@qq.com", 
+    "669687151@qq.com": {
+        "port": 9321, 
+        "uname": "669687151@qq.com", 
+        "is_active": 1, 
+        "method": "chacha20-ietf-poly1305", 
+        "expire_date": "2018-04-16"
+    }, 
+    "wecheneux@sina.com": {
+        "uname": "wecheneux@sina.com", 
         "method": "chacha20-ietf-poly1305", 
         "is_active": 1, 
-        "port": 9338, 
-        "expire_date": "2017-12-03"
+        "port": 9301, 
+        "expire_date": "2018-12-06"
     }, 
-    "790206201@qq.com": {
-        "uname": "790206201@qq.com", 
-        "method": "chacha20-ietf-poly1305", 
+    "MichaelXuZM@Gmail.com": {
+        "uname": "MichaelXuZM@Gmail.com", 
+        "expire_date": "2018-04-21", 
         "is_active": 1, 
-        "port": 9344, 
-        "expire_date": "2017-11-16"
+        "port": 9323, 
+        "method": "chacha20-ietf-poly1305"
+    }, 
+    "allen2006cyb@126.com": {
+        "uname": "allen2006cyb@126.com", 
+        "expire_date": "2018-07-25", 
+        "is_active": 1, 
+        "port": 9313, 
+        "method": "chacha20-ietf-poly1305"
+    }, 
+    "avidcrown@126.com": {
+        "uname": "avidcrown@126.com", 
+        "expire_date": "2018-04-07", 
+        "is_active": 1, 
+        "port": 9347, 
+        "method": "chacha20-ietf-poly1305"
+    }, 
+    "704523159@qq.com": {
+        "port": 9300, 
+        "uname": "704523159@qq.com", 
+        "is_active": 0, 
+        "method": "chacha20-ietf-poly1305", 
+        "expire_date": "2017-11-24"
+    }, 
+    "283926334@qq.com": {
+        "uname": "283926334@qq.com", 
+        "expire_date": "2018-07-17", 
+        "is_active": 1, 
+        "port": 9319, 
+        "method": "chacha20-ietf-poly1305"
     }, 
     "aren01@163.com": {
         "uname": "aren01@163.com", 
-        "method": "chacha20-ietf-poly1305", 
+        "expire_date": "2017-12-29", 
         "is_active": 1, 
         "port": 9306, 
-        "expire_date": "2017-12-29"
+        "method": "chacha20-ietf-poly1305"
     }, 
-    "562530766@qq.com": {
-        "uname": "562530766@qq.com", 
+    "icekale@gmail.com": {
+        "uname": "icekale@gmail.com", 
+        "expire_date": "2018-01-03", 
+        "is_active": 1, 
         "method": "chacha20-ietf-poly1305", 
-        "is_active": 1, 
-        "port": 9331, 
-        "expire_date": "2018-02-14"
+        "port": 9303
     }, 
-    "669687151@qq.com": {
-        "uname": "669687151@qq.com", 
-        "expire_date": "2018-04-16", 
+    "aaron@ibreathcare.com": {
+        "uname": "aaron@ibreathcare.com", 
+        "expire_date": "2018-10-22", 
         "is_active": 1, 
-        "port": 9321, 
+        "port": 9326, 
         "method": "chacha20-ietf-poly1305"
     }, 
     "489377102@qq.com": {
         "uname": "489377102@qq.com", 
-        "method": "chacha20-ietf-poly1305", 
+        "expire_date": "2017-10-20", 
         "is_active": 0, 
         "port": 9335, 
-        "expire_date": "2017-10-20"
-    }, 
-    "icekale@gmail.com": {
-        "port": 9303, 
-        "uname": "icekale@gmail.com", 
-        "is_active": 1, 
-        "method": "chacha20-ietf-poly1305", 
-        "expire_date": "2018-01-03"
-    }, 
-    "aaron@ibreathcare.com": {
-        "uname": "aaron@ibreathcare.com", 
-        "method": "chacha20-ietf-poly1305", 
-        "is_active": 1, 
-        "port": 9326, 
-        "expire_date": "2018-10-22"
-    }, 
-    "schor@qq.com": {
-        "uname": "schor@qq.com", 
-        "expire_date": "2018-06-12", 
-        "is_active": 1, 
-        "port": 9315, 
         "method": "chacha20-ietf-poly1305"
-    }, 
-    "hans@ibreathcare.com": {
-        "uname": "hans@ibreathcare.com", 
-        "method": "chacha20-ietf-poly1305", 
-        "is_active": 1, 
-        "port": 9327, 
-        "expire_date": "2017-12-03"
     }, 
     "liuyangalex@gmail.com": {
         "uname": "liuyangalex@gmail.com", 
-        "method": "chacha20-ietf-poly1305", 
+        "expire_date": "2018-09-22", 
         "is_active": 1, 
         "port": 9307, 
-        "expire_date": "2018-09-22"
+        "method": "chacha20-ietf-poly1305"
     }, 
-    "283926334@qq.com": {
-        "uname": "283926334@qq.com", 
+    "562530766@qq.com": {
+        "uname": "562530766@qq.com", 
+        "expire_date": "2018-02-14", 
+        "is_active": 1, 
+        "port": 9331, 
+        "method": "chacha20-ietf-poly1305"
+    }, 
+    "25736190@qq.com": {
+        "uname": "25736190@qq.com", 
+        "expire_date": "2017-12-03", 
+        "is_active": 0, 
+        "port": 9338, 
+        "method": "chacha20-ietf-poly1305"
+    }, 
+    "790206201@qq.com": {
+        "uname": "790206201@qq.com", 
+        "expire_date": "2017-11-16", 
+        "is_active": 0, 
+        "port": 9344, 
+        "method": "chacha20-ietf-poly1305"
+    }, 
+    "schor@qq.com": {
+        "port": 9315, 
+        "uname": "schor@qq.com", 
+        "is_active": 1, 
         "method": "chacha20-ietf-poly1305", 
-        "is_active": 1, 
-        "port": 9319, 
-        "expire_date": "2018-07-17"
+        "expire_date": "2018-06-12"
     }, 
-    "180089641@qq.com": {
-        "uname": "180089641@qq.com", 
-        "method": "chacha20-ietf-poly1305", 
-        "is_active": 1, 
-        "port": 9332, 
-        "expire_date": "2018-07-17"
-    }, 
-    "MichaelXuZM@Gmail.com": {
-        "uname": "MichaelXuZM@Gmail.com", 
-        "method": "chacha20-ietf-poly1305", 
-        "is_active": 1, 
-        "port": 9323, 
-        "expire_date": "2018-04-21"
-    }, 
-    "allen2006cyb@126.com": {
-        "uname": "allen2006cyb@126.com", 
-        "method": "chacha20-ietf-poly1305", 
-        "is_active": 1, 
-        "port": 9313, 
-        "expire_date": "2018-07-25"
-    }, 
-    "avidcrown@126.com": {
-        "uname": "avidcrown@126.com", 
-        "method": "chacha20-ietf-poly1305", 
-        "is_active": 1, 
-        "port": 9347, 
-        "expire_date": "2018-04-07"
-    }, 
-    "704523159@qq.com": {
-        "uname": "704523159@qq.com", 
-        "expire_date": "2017-11-24", 
-        "is_active": 1, 
-        "port": 9300, 
+    "hans@ibreathcare.com": {
+        "uname": "hans@ibreathcare.com", 
+        "expire_date": "2017-12-03", 
+        "is_active": 0, 
+        "port": 9327, 
         "method": "chacha20-ietf-poly1305"
     }, 
     "467367097@qq.com": {
-        "uname": "467367097@qq.com", 
-        "expire_date": "2018-10-02", 
-        "is_active": 1, 
         "port": 9345, 
-        "method": "chacha20-ietf-poly1305"
-    }, 
-    "router@home": {
-        "port": 9400, 
-        "uname": "router@home", 
+        "uname": "467367097@qq.com", 
         "is_active": 1, 
         "method": "chacha20-ietf-poly1305", 
-        "expire_date": "2026-08-26"
+        "expire_date": "2018-10-02"
+    }, 
+    "router@home": {
+        "uname": "router@home", 
+        "expire_date": "2026-08-26", 
+        "is_active": 1, 
+        "method": "chacha20-ietf-poly1305", 
+        "port": 9400
+    }, 
+    "router@homeNEW": {
+        "uname": "router@homeNEW", 
+        "expire_date": "2026-08-26", 
+        "is_active": 1, 
+        "method": "chacha20-ietf-poly1305", 
+        "port": 9500
+    }, 
+    "180089641@qq.com": {
+        "uname": "180089641@qq.com", 
+        "expire_date": "2018-07-17", 
+        "is_active": 1, 
+        "port": 9332, 
+        "method": "chacha20-ietf-poly1305"
     }
 }
