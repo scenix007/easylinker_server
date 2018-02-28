@@ -128,7 +128,7 @@ sleep 5s;
                     method = user['method']
                 cmd_str = "ssserver -s 0.0.0.0 -p %d -k %s " % (port, uname)
                 cmd_str += " -m %s" % method
-                cmd_str += " --fast-open --user nobody"
+                cmd_str += " --user nobody"
                 cmd_str += " --pid-file /tmp/ss.%d" % port
                 cmd_str += " --log-file log/log.%d" % port
                 cmd_str += " -q -d start\n"
